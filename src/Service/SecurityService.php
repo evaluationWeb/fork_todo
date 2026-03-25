@@ -117,6 +117,7 @@ class SecurityService
         $_SESSION["firstname"] = $user->getFirstname();
         $_SESSION["lastname"] = $user->getLastname();
         $_SESSION["id"] = $user->getId();
+        $_SESSION["image"] = $user->getImage();
         
         return "Vous etes connecté";
     }
